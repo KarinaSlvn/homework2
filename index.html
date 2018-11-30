@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form action="">
+    <div class="form-first_part">
+        <p class="title">1. Личные данные</p>
+        <div class="group-radio_buttons">
+            <p>Обращение*</p>
+            <div class="radio_buttons">
+                <label for="mr">Господин</label>
+                <input type="radio" name="address" value="mr" id="mr" checked>
+                <label for="ms">Госпожа</label>
+                <input type="radio" name="address" value="ms" id="ms">
+
+            </div>
+        </div>
+        <p>
+            Звание <input type="text" name="rank">
+        </p>
+        <p>
+            Имя* <input type="text" name="name" value="Sergey">
+        </p>
+        <p>
+            Фамилия* <input type="text" name="surname" value="Sereev">
+        </p>
+        <p>
+            Улица* <input type="text" name="street" value="Lenina 22">
+        </p>
+        <p>
+            Индекс/город*
+            <span class="cite">
+            <input type="number" name="cite" value="94000">
+            <input type="text" name="cite" value="Kiev">
+        </span>
+        </p>
+        <p>
+            Страна* <select name="country">
+            <option value="Украина">Украина</option>
+            <option value="Россия">Россия</option>
+            <option value="Беларусия">Беларусия</option>
+            <option value="Польша">Польша</option>
+        </select>
+        </p>
+        <p>
+            Валюта* <select name="valuta">
+            <option value="usd">Американский доллар(USD)</option>
+            <option value="eur">Европейский союз(EUR)</option>
+            <option value="uah">Украинская гривна(UAH)</option>
+        </select>
+        </p>
+        <p>
+            Дата рождения* <input type="data" name="data" value="18.09.1987">
+        </p>
+        <p>
+            E-Mail* <input type="email" name="email" value="sersergey6547@gmail.com">
+        </p>
+        <p>
+            Мобильный телефон
+            <span class="phone">
+            <select name="phone">
+            <option value="ukr">+380</option>
+            <option value="eur">+79</option>
+        </select>
+            <input type="number" value="phone" class="short_number">
+            <input type="number" value="phone" class="long_number">
+
+                </span>
+        </p>
+        <p>
+            Телефон
+            <span class="phone">
+            <select name="phone">
+            <option value="ukr">+380</option>
+            <option value="eur">+79</option>
+        </select>
+            <input type="number" value="phone" class="short_number">
+            <input type="number" value="phone" class="long_number">
+</span>
+        </p>
+    </div>
+    <div class="form-second_part">
+        <p class="title">2. Данные доступа</p>
+        <p>
+            Пароль* <input type="password" name="password" value="sdf78dfdg">
+        </p>
+        <p class="password">(8-20 символов: цифры и буквы)</p>
+        <lable class="security">
+            Надежность пароля
+            <progress max="100" value="40"></progress>
+        </lable>
+        <br>
+        <p>
+            Введите пароль еще раз* <input type="password" name="password" value="sdf78dfdg">
+        </p>
+        <p>
+            Контрольній вопрос* <select name="question">
+            <option value="first-question">Название вашего первого автомобиля</option>
+            <option value="second-question">Название вашего любимого фильма</option>
+        </select>
+        </p>
+        <p>
+            Ваш ответ* <input type="text" value="seat leon">
+        </p>
+        <div class="accept">
+            <input type="checkbox" name="accept" checked>
+                <p class="description_accept">
+                Я принимаю <a href="#" class="condition">Общие условия и положения</a> и
+                <a href="#">Политику конфиденциальности</a>.
+                Мне уже исполнилось 18 лет, ия даю свое соглаие на отправку мне рекламы и инфорации о продуктах
+                компанией bet-at-home.com. Я могу в любое время отказаться от своего согласия на получение рекламы и
+                информации о продуктах в настройках своего счета.
+                </p>
+        </div>
+        <button class="registration">Зарегестрироваться прямо сейчас!<span>&#9205;</span></button>
+    </div>
+</form>
+</body>
+</html>

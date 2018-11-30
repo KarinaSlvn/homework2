@@ -1,0 +1,161 @@
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #444444;
+    font-family: Calibri;
+}
+.title{
+    font-weight: bold;
+}
+.form-first_part{
+    width: 30%;
+    margin-right: 70px;
+}
+.form-first_part p,.form-second_part p{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+input[type='text'],input[type='data'],input[type='email']{
+    border-radius: 5px;
+    border: 1px solid #959595;
+    padding: 3px;
+    color: #444444;
+    width: 230px;
+}
+input[type='radio']{
+    margin-right: 20px;
+}
+.group-radio_buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.radio_buttons{
+    width: 240px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+input[value="94000"]{
+    width: 60px;
+    border-radius: 5px;
+    border: 1px solid #959595;
+    padding: 3px;
+    color: #444444;
+}
+input[value='Kiev']{
+    width: 160px;
+}
+select[name='country'],select[name='valuta']{
+    border-radius: 5px;
+    border: 1px solid #959595;
+    padding: 3px;
+    color: #444444;
+    width: 240px;
+}
+select[name='phone']{
+    border: 1px solid #959595;
+    padding: 3px;
+    color: #444444;
+    width: 60px;
+}
+.phone{
+    width: 235px;
+}
+.short_number{
+    border-radius: 5px;
+    border: 1px solid #959595;
+    padding: 3px;
+    color: #444444;
+    width: 60px;
+}
+.long_number{
+    width: 90px;
+    border-radius: 5px;
+    border: 1px solid #959595;
+    padding: 3px;
+    color: #444444;
+}
+.form-second_part{
+    width: 30%;
+}
+input[type='password'],select[name='question']{
+    width: 230px;
+    border-radius: 5px;
+    border: 1px solid #959595;
+    padding: 3px;
+    color: #444444;
+}
+.password{
+   width: 150px;
+    margin-left: 40%;
+}
+.security{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+progress{
+    color: #a9a9a9;
+    font-size: .6em;
+    line-height: 1.5em;
+    text-indent: .5em;
+    width: 230px;
+    height: 1.4em;
+    border: 1px solid #a9a9a9;
+    background: #fff;
+    border-radius: 8px;
+}
+progress::-webkit-progress-bar {
+    background: #fff;
+    border-radius: 8px;
+}
+progress::-webkit-progress-value {
+    background:  linear-gradient(to right, red 34%, #fff620 65%);
+    border-radius: 8px;
+}
+input[value='seat leon']{
+    width: 225px;
+}
+.accept{
+    width: 80%;
+    background-color: #e0e0e0;
+    padding: 0 60px 0 20px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+/*input[type='checkbox']{
+    margin-right: 10px;
+}*/
+.accept .description_accept{
+    display: inline-block;
+    width: 300px;
+    margin-top: 0;
+}
+.description_accept a{
+    text-decoration: none;
+}
+.registration{
+    color: white;
+    background: linear-gradient(to top, #81a321, #5e7a1c);
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0 10px 5px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.registration span{
+    font-size: 25px ;
+}
+.registration:hover{
+    background: white;
+    border: 1px solid #81a321;
+    color:#5e7a1c;
+    border-radius: 6px;
+}
