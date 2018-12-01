@@ -54,6 +54,7 @@ input[name='index']{
 }
 .button-name_user{
     font-weight: bold;
+    cursor: pointer;
 }
 .user-name{
     margin-left: 80px;

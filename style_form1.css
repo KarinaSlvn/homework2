@@ -9,7 +9,7 @@ form{
     font-weight: bold;
 }
 .form-first_part{
-    width: 30%;
+    width: 405px;
     margin-right: 70px;
 }
 .form-first_part p,.form-second_part p{
@@ -81,7 +81,7 @@ select[name='phone']{
     color: #444444;
 }
 .form-second_part{
-    width: 30%;
+    width: 405px;
 }
 input[type='password'],select[name='question']{
     width: 230px;
