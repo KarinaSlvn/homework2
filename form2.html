@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style_form2.css">
+</head>
+<body>
+<form action="" id="second_form">
+    <header>Адрес</header>
+    <section class="second_form--part">
+        <p class="country">Страна <select name="country">
+            <option value="Украина">Украина</option>
+            <option value="Россия">Россия</option>
+            <option value="Беларусия">Беларусия</option>
+            <option value="Польша">Польша</option>
+        </select></p>
+        <span class="description_adress">Нам необходимо знать ваш адрес для проверки личности клиента и обеспечения безопасности <br> сайта.</span>
+        <p>Адрес <input type="text" name="adress" value="Petrovka 23"></p>
+        <p>Город <input type="text" name="city" value="Brans"></p>
+        <p>Обоасть <input type="text" name="region">
+            <span class="optional">необязательно</span>
+        </p>
+        <p id="index">Почтовый индекс <input type="number" name="index" value="11111"></p>
+    </section>
+    <header>Данные счета Betfair</header>
+    <section class="second_form--part">
+            <p class="user-name">Имя пользователя
+            <input type='text' name="name_user" value="Ivanov 2345">
+            <button class="button-name_user">Проверить доступность</button>
+            </p>
+        <span class="description_name">6-40 знаков. Чуствительно к регистру.</span>
+        <div class="group_pass">
+        <p class="password">Пароль <input type="password" name="password" value="fgfh878"></p>
+        <span class="description_password">8-20 знаков.</span>
+        <p class="password">Подтверждение парля <input type="password" name="password" value="fgfh878"></p>
+        </div>
+        <p>Секретный вопрос 
+            <select name="quation">
+                <option value="first_quation">Имя отца</option>
+                <option value="second-quation">Имя петмца</option>
+            </select>
+        </p>
+        <p class="answer">Ваш ответ <input type="text" name="answer" value="trenk"></p>
+        <div class="valuta">
+            <p>Валюта счета Batfair</p>
+            <select name="valuta">
+                <option value="usd">Доллар США</option>
+                <option value="eur">Евро</option>
+                <option value="uah">Украинская гривна</option>
+            </select>
+            <p class="description_valuta">Пожалуйста, выберете другую валюты, если тип валюты, которой Вы пользуетесь не представлен в списке.
+                Вы сможете продолжать пользоваться Batfair. Деньги, которые Вы вносите на счет, будут конвертироаваны в
+                валюту выбранную Вами здесь.
+            </p>
+        </div>
+        <div class="group-radio_buttons">
+            <p>Если мееться, пожалуйста, введите код промо акции или код программы "Привлекай и плучай".</p>
+            <div class="radio_buttons">
+                <input type="radio" name="yes" value="yes" id="yes" checked>
+                <label for="yes">Да</label>
+                <input type="radio" name="no" value="no" id="no">
+                <label for="no">Нет</label>
+            </div>
+        </div>
+        <div class="description">
+            <p>Нажав на кнопку, Вы:</p>
+            <ul class="accept">
+                <li>Подтверждаете, что Вам есть 18 лет.
+                    <ul>
+                        <li>Соглашаюсь с <a href="#">Условиями и положениями</a> и
+                            <a href="#">Подитикой конфиденциальности</a>.
+                        </li>
+                        <li>Получать информацию от Batfair, и в разделе Мой счет изменять настройки рассылки электронной почты.
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <button class="button--accept">Согласен и открыть счет</button>
+            <p>Прежде чем делать ставки на бирже, играть в покер или игры, Вам необходимо внести деньги на Ваш игровой счет.</p>
+        </div>
+    </section>
+</form>
+</body>
+</html>

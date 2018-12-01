@@ -159,3 +159,21 @@ input[value='seat leon']{
     color:#5e7a1c;
     border-radius: 6px;
 }
+.label{
+    position: absolute;
+    right: 50%;
+    font-weight: bold;
+    color: #54a329;
+}
+.form-second_part--label{
+    position: absolute;
+    right: 15%;
+    font-weight: bold;
+    color: #54a329;
+
+}
+.label_not_color{
+    position: absolute;
+    right: 50%;
+    font-weight: bold;
+}

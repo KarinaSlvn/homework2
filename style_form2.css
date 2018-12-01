@@ -1,0 +1,134 @@
+*{
+    margin: 0 10px;
+    padding: 0;
+    font-family: Calibri;
+}
+.second_form--part{
+    background-color: rgba(23,98,255,0.28);
+    width: 79%;
+    margin: -2px auto 10px;
+    padding: 30px 10px;
+}
+header{
+    width: 80%;
+    height: 20px;
+    background: linear-gradient(to top, #05059f, #0b06ff);
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 6px;
+    margin: 0 auto;
+    z-index: 1000;
+}
+
+.second_form--part p{
+    font-weight: bold;
+    font-size: 18px;
+    text-align: right;
+    width: 500px;
+}
+select[name='country']{
+    width: 250px;
+}
+.description_adress{
+    display: block;
+    padding-left: 265px;
+    margin: 10px 0;
+}
+input[name='adress'],input[name='city'],input[name='region']{
+    width: 230px;
+}
+.country{
+    margin-left: 25px;
+}
+.optional{
+    position: absolute;
+    font-weight: normal;
+}
+input[name='index']{
+    width: 80px;
+}
+#index{
+    text-align: left;
+    margin-left: 115px;
+}
+.button-name_user{
+    font-weight: bold;
+}
+.user-name{
+    margin-left: 80px;
+
+}
+.description_name{
+    padding-left: 255px;
+    display: block;
+}
+.description_password{
+    padding-left: 255px;
+    display: block;
+    margin: 10px;
+}
+.second_form--part:nth-child(even) .password{
+    width: 405px;
+
+}
+.group_pass{
+    margin: 20px 0 ;
+}
+select[name='quation']{
+    width: 235px;
+}
+input[name='answer']{
+    width: 250px;
+}
+.answer{
+    margin-left: 28px;
+    margin-top: 10px;
+}
+.valuta{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    padding-right: 150px;
+    margin-top: 20px;
+}
+.valuta .description_valuta{
+    width: 800px;
+    text-align: left;
+    font-weight: normal;
+}
+select[name='valuta']{
+    width: 470px;
+}
+.group-radio_buttons{
+    display: flex;
+    flex-direction: row;
+}
+.group-radio_buttons p{
+    width: 220px;
+}
+.description p{
+    font-weight: normal;
+    margin-right: 200px;
+    width: 410px;
+}
+.description .accept{
+    margin-left: 266px;
+}
+.description .accept ul li{
+    list-style-type: disc;
+}
+.button--accept{
+    font-weight: bold;
+    margin-left: 266px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.description p:nth-child(even){
+    margin-left: 260px;
+    margin-top: 10px;
+    display: block;
+    text-align: left;
+    width: 70%;
+}
